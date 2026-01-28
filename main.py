@@ -23,7 +23,7 @@ db: List[Usuario] = [
 @app.get("/")
 async def root():
     """Endpoint raíz de la API."""
-    return {"Saludo": "hola"}
+    return {"Saludo": "Holi ñom ñom ñom"}
     ##fastapi dev main.py
     ##pip install pydantic
 
